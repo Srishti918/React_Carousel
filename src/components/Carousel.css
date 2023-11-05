@@ -16,3 +16,42 @@
 .slide-hidden {
     display: none;
   }
+  .arrow {
+    position: absolute;
+    width: 2rem;
+    height: 2rem;
+    color: white;
+  }
+  
+  .arrow:hover {
+    cursor: pointer;
+  }
+  
+  .arrow-left {
+    left: 1rem;
+  }
+  
+  .arrow-right {
+    right: 1rem;
+  }
+  
+  .circles {
+    display: flex;
+    position: absolute;
+    bottom: 1rem;
+  }
+  
+  .circle {
+    background-color: white;
+    height: 0.5rem;
+    width: 0.5rem;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    margin: 0 0.4rem;
+    cursor: pointer;
+  }
+  
+  .circle-inactive {
+    background-color: grey;
+  }

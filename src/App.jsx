@@ -4,9 +4,9 @@ import {images} from "./data/data.json"
 function App() {
 
   return (
-    <>
+    <div className='App'>
      <Carousel data={images}/>
-    </>
+    </div>
   )
 }
 
